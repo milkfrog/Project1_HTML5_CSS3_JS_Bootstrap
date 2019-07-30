@@ -161,9 +161,8 @@ header #logotipo {
 	width: 100%;
 	height: 728px;
 	position: relative;
-	background: url("../img/banner.jpg") no-repeat;
-	background-position: 0px -100px;
-	top: -110px;
+	background: url("../img/banner.jpg") repeat;
+	top: -130px;
 }
 
 #banner h1 {
@@ -181,4 +180,35 @@ header #logotipo {
 	color: #FFFFFF;
 	font-family: 'OpenSans';
 	font-weight: bold;
+}
+#news {
+	position: relative;
+	top: -110px;
+}
+#news h2 {
+	color: #5E2799;
+	font-family: 'OpenSans-Light';
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+}
+#news hr {
+	border: #FDE192 solid 2px;
+	width: 200px;
+	margin: 0 auto;
+}
+#news .thumbnails {
+	margin-top: 20px;
+}
+#news .thumbnails h3 {
+	color: #5E299A;
+	font-size: 18px;
+	font-family: 'OpenSans';
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+#news .thumbnails time {
+	color: #A7A7A7;
+	font-size: 18px;
+	font-family: 'OpenSans';
 }
