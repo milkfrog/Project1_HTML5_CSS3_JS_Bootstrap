@@ -108,6 +108,11 @@ header #logotipo {
 	top: 20px;
 	z-index: 3;
 }
+#banner h1.efeito {
+	color: red;
+	font-size: 12em;
+	transition: 1s;
+}
 #menu {
 	margin: 12px 0px;
 }
