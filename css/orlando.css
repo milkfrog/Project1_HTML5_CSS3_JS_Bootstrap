@@ -111,7 +111,6 @@ header #logotipo {
 #banner h1.efeito {
 	color: red;
 	font-size: 12em;
-	transition: 1s;
 }
 #menu {
 	margin: 12px 0px;
@@ -172,6 +171,7 @@ header #logotipo {
 }
 
 #banner h1 {
+	transition: 1s;
 	color: #FFFFFF;
 	top: 300px;
 	position: relative;
