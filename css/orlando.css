@@ -279,7 +279,7 @@ footer .row {
 	width: 100%;
 }
 footer .row p {
-	line-height: 60px;
+	line-height: 55px;
 	margin-bottom: 0px;
 }
 footer .row-cinza-claro {
@@ -304,4 +304,81 @@ footer .text-roxo {
 }
 footer .logotipo {
 	margin-top: 28px;
+}
+footer .col-popoular-post,
+footer .col-links,
+footer .col-in-touch {
+	margin-top: 40px;
+}
+footer .row-cols h4 {
+	font-family: 'OpenSans';
+	font-size: 16px;
+	color: #FFFFFF;
+	padding-bottom: 17px;
+	border-bottom: #242D37 1px solid;
+}
+footer .row-cols h5 {
+	color: #666;
+	font-family: Arial;
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+footer .row-cols time {
+	color: #FDE092;
+	font-family: Arial;
+	font-size: 14px;
+}
+footer .col-links a {
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 14px;
+}
+footer .col-links .fas {
+	margin: 0 6px;
+}
+footer .col-in-touch address {
+	color: #666;
+	font-family: Arial;
+	font-size: 14px;
+	margin-bottom: 6px;
+}
+footer .col-in-touch address span {
+	display: inline-block;
+}
+footer .col-in-touch i {
+	color: #9B9B9B;
+	font-size: 20px;
+	margin: 0px 6px;
+}
+footer .col-in-touch address i {
+	position: relative;
+	top: -14px;
+}
+footer .col-in-touch p {
+	line-height: 20px;
+}
+footer .col-in-touch a {
+	color: #666;
+}
+footer .list-socials {
+	margin-top: 4px;
+}
+footer .list-socials a {
+	display: block;
+	border: #9B9B9B 1px solid;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 14px;
+	text-align: center;
+}
+footer .list-socials li {
+	display: inline-block;
+	margin-right: 8px;
+}
+footer .list-socials i {
+	font-size: 16px;
+	margin: 7px auto;
+	position: relative;
+	top: -2px;
 }
