@@ -1,5 +1,6 @@
 # CursoHTML5_CSS3_JS_Bootstrap
 
-Repository created for Udemy course of HTML5, CSS3, JavaScript and Bootstrap.
+Repository for the first project of the Udemy course "`Curso Completo do Desenvolvedor Web`"
+Which will teach HTML5, CSS3, JavaScript, JQuery, Bootstrap, Font Awesome, etc.
 
-Stactic version of the project can be accessed via https://milkfrog.github.io/Project1_HTML5_CSS3_JS_Bootstrap/
+Static version of the website: https://milkfrog.github.io/Project1_HTML5_CSS3_JS_Bootstrap/
