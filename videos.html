@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Orlando City</title>
 		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="lib/plyr/dist/plyr.css">
         <link rel="stylesheet" href="lib/owl.carousel2/dist/assets/owl.carousel.min.css">
         <link rel="stylesheet" href="lib/owl.carousel2/dist/assets/owl.theme.default.min.css">
 		<link rel="stylesheet" href="css/orlando.css">
@@ -90,7 +91,9 @@
 					</div>
 					<br>
 					<div class="row">
-						<video class="video1" src="mp4/highlights.mp4" controls poster="img/highlights.jpg"></video>
+						<div class="player">
+							<video class="video1" src="mp4/highlights.mp4" poster="img/highlights.jpg"></video>
+						</div>
 
 						<input type="range" id="volume" min="0" max="1" step="0.01" value="1">
 						<button type="button" id="btn-play-pause" class="btn btn-success">PLAY</button>
@@ -234,9 +237,13 @@
 		</footer>
 
 		<script src="lib/jquery/jquery.min.js"></script>
+		<script src="lib/plyr/dist/plyr.js"></script>
         <script src="lib/owl.carousel2/dist/owl.carousel.min.js"></script>
 		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
 		<script src="js/efeitos.js"></script>
+		<script>
+			const player = new Plyr('#player');
+		</script>
 		<script>
 			$(function () {
 				$(".thumbnails .item").on("click", function () {
@@ -264,6 +271,8 @@
 
 					$(this).toggleClass("btn-success btn-danger"); // verifica qual esta e troca pela outra. (vice-versa)
 				});
+
+				plyr.setup(); // disparando player plyr
 
 			});
 		</script>
